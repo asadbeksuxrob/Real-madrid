@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.container{
+    /* margin-left: 400px;
+    margin-right: 400px; */
+    /* margin-top: 100px; */
+    display: grid;
+    grid-template-columns:  1fr  1fr  1fr ;
+    grid-template-rows: 90px 90px 90px 90px ;
+    grid-template-areas: 
+    "logo header header"
+    "main main sidebar"
+    "rain vts sidebar"
+    "footer footer footer";
+    
+}
+.item-1{
+    background-color:linear-gradient(180deg,rgba(217,217,217,0)0%, #EDA61D 100%);
+    grid-area: logo;
+    grid-row: 1;
+    grid-column: 1;
+}
+.item-2{
+    
+    background-color:linear-gradient(180deg,rgba(217,217,217,0)0%, #EDA61D 100%);
+    grid-area: header;
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item-3{
+    
+    background-color:linear-gradient(180deg,rgba(217,217,217,0)0%, #EDA61D 100%);
+    grid-area: main;
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item-4{
+    background-color:linear-gradient(180deg,rgba(217,217,217,0)0%, #EDA61D 100%);
+    
+    grid-area: sidebar;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column: 3;
+    
+}
+.item-5{
+    background-color:linear-gradient(180deg,rgba(217,217,217,0)0%, #EDA61D 100%);
+   
+    grid-area: footer;
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item-6{
+    
+    background-color:linear-gradient(180deg,rgba(217,217,217,0)0%, #EDA61D 100%);
+    grid-area: rain;
+    grid-column: 1;
+    grid-row: 3;
+}
+.item-7{
+   
+    background-color:linear-gradient(180deg,rgba(217,217,217,0)0%, #EDA61D 100%);
+    grid-area: vts;
+    grid-column: 2;
+    grid-row: 3;
+}
+    </style>
+</head>
+<body style="background: linear-gradient(300deg,rgba(217,217,217,0)0%, #EDA61D 100%);">
+    <div class="container">
+        <div class=" item-1"></div>
+        <div class=" item-2"></div>
+        <div class=" item-3"></div>
+        <div class=" item-4"></div>
+        <div class=" item-5"> </div>
+        <div class="item-6"></div>
+        <div class="item-7"></div>
+    </div>
+</body>
+</html>

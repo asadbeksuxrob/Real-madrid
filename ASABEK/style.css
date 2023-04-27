@@ -1,0 +1,394 @@
+body {
+    background:linear-gradient(180deg,rgba(217,217,217,0)0%, #EDA61D 100%);
+}
+
+.a2 {
+    background-color: rgb(24, 214, 40);
+    color: #10a5e5;
+}
+.a3 {
+    background-color: rgb(230, 176, 180);
+}
+.qq111122{
+    background:linear-gradient(180deg,rgba(217,217,217,0)0%, #EDA61D 100%);
+}
+
+.a4 {
+    background-color: rgb(230, 230, 26);
+}
+
+.img-1 {
+    background-image: url('image/oboi-relefy-wallpaper-reliefs-fon-rasmi-fon-rasm-parij-parizh.jpg');
+    border-radius: 10px;
+    border: 10px #4a0505 solid;
+    width: 400px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+td {
+    padding: 15px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(5, 101, 174);
+}
+
+table {
+    background-color: aliceblue;
+}
+
+.a1 {
+    background-color: rgb(10, 10, 241);
+}
+
+.a5 {
+    background-color: rgb(239, 178, 105);
+    font-size: 20px;
+}
+
+.a6 {
+    font-size: 15px;
+    color: #393434;
+    background-color: rgb(163, 146, 127);
+}
+
+.a7 {
+    background-color: rgb(229, 173, 99);
+}
+
+.a8 {
+    background-color: rgb(189, 149, 101);
+}
+
+.a9 {
+    font-size: 10px;
+}
+
+.microsoft {
+    width: 240px;
+    margin: 20px auto;
+}
+
+.red {
+    background-color: aqua;
+}
+
+.green {
+    background-color: blanchedalmond;
+}
+
+.blue {
+    background-color: rgb(65, 65, 235);
+}
+
+.yellow {
+    background-color: aquamarine;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.Istiqbol {
+    background: linear-gradient(180deg,rgba(217,217,217,0)0%, #EDA61D 100%);
+    font-size: 20px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.reja {
+    background-color: aquamarine;
+    font-size: 30px;
+    color: #eb1616;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    margin-top: +25px;
+    
+}
+
+.reja:hover {
+    background-color: #10a5e5;
+
+}
+
+.dars {
+    background-color: #0bb034;
+    font-size: 40px;
+}
+
+.Mart2 {
+    background-color: #e41d1d;
+}
+
+p {
+    color: #0f7e3f;
+}
+
+.p {
+    background-color: #eb1616;
+}
+
+#p {
+    color: rgb(27, 185, 185);
+}
+
+#s {
+    background-color: antiquewhite;
+}
+
+.ssss:hover {
+    background-color: rgb(107, 33, 192);
+    width: 100%;
+
+}
+
+.ssss {
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Mynerve', cursive;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: #b716c9;
+    float: left;
+}
+
+.menu {
+    background-color: rgb(212, 142, 13);
+}
+
+div a {
+    background-color: #b00b0b;
+}
+
+.qqqqq:hover {
+    background-color: rgb(161, 168, 231);
+}
+
+.block-image {
+    width: 100%;
+    height: 1000px;
+    background-image: url("image/oboi2.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-color: #0f7e3f;
+    opacity: 1;
+}
+
+.slider {
+    width: 100%;
+    height: 500px;
+    background-image: url("site/oboi-relefy-wallpaper-reliefs-fon-rasmi-fon-rasm-parij-parizh\ —\ копия.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@keyframes example {
+    from {
+        background-color: #10a5e5;
+    }
+
+    to {
+        background-color: #b716c9;
+    }
+}
+
+.s11111 {
+    color: rgb(5, 75, 135);
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: dashed;
+    border-left-style: dotted;
+    border-width: 3px;
+    border-color: #b716c9;
+    border-radius: 40px;
+    /* border-width:medium; */
+    position: relative;
+    top: 20px;
+    border: 5px solid #e41d1d;
+    width: 90%;
+    font-size: 15px;
+}
+.sssa{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid rgb(24, 252, 146);
+}
+.qaaa{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 280px;
+    height: 100px;
+    border: 3px solid rgb(120, 8, 32);
+}
+.Sadd{
+    position: sticky;
+    background-color: #3dde83;
+    top: 0;
+    padding: 5px;
+    border: 5px solid rgb(30, 120, 30);
+}
+.Nasr{ 
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    border: 5px solid rgb(154, 211, 22);
+    overflow: hidden;
+}
+p.a11{
+    white-space: nowrap;
+    color: #1f0303d8;
+    background-color: #3dde83;
+}
+p.a12{
+    white-space: normal;
+    color: #1f0303d8;
+}
+.a12:hover{
+background-color: #10a5e5;
+}
+p.a13{
+    white-space: pre;
+    color: #1f0303d8;
+    font-size: 20px;
+    animation: myshadow 15s infinite;
+}
+@keyframes myshadow {
+    50%{text-shadow: 40px 70px 100px rgb(14, 232, 28);}
+}
+div.a14{
+    white-space: nowrap;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: clip;
+    border: 3px solid black;
+}
+div.a15{
+    white-space: nowrap;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 3px solid black;
+}
+div.a15:hover{
+    overflow: visible;
+}
+.dropdown{ 
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #10a5e5; 
+    min-width: 160px; 
+    box-shadow: 0px 8px 16px 0px rgb(214, 145, 17);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.yuve{ 
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap-reverse;
+    background-color: #3dde83;
+}
+.yuve  div {
+    background-color: #10a5e5;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.bozor{
+    display: flex;
+    align-items: flex-start;
+}
+article{
+    padding: 10px;
+    border: 4px solid rgb(235, 235, 18);
+}
+.block1{
+    flex: 2;
+}
+.block2{ 
+flex: 1;
+}
+.block3{ 
+flex: 1;
+}
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    border: 10px solid yellow;
+}
+.item-1{ 
+    background-color: #0bb034;
+}
+.item-2{
+    background-color:#10a5e5
+}
+.item-3{
+    background-color:aliceblue
+}
+.item-4{
+    background-color:#b00b0b
+}
+.item-5{
+    background-color:#b716c9
+} */
+.container{
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20% ;
+    grid-template-rows: 100px 120px 140px 150px 160px;
+    grid-template-areas: "header header header header header" 
+    " main main . sidebar sidebar " 
+    "footer footer footer footer footer ";
+}
+.item-1{
+    background-color: #10a5e5;
+    border: 1px solid black;
+    grid-area: header;
+}
+.item-2{
+    background-color: #15c440;
+    border: 1px solid black;
+    grid-area: main;
+}
+.item-3{
+    background-color: #2c0f8e;
+    border: 1px solid black;
+    grid-area: sidebar;
+}
+.item-4{
+    background-color: #bf8115;
+    border: 1px solid black;
+    grid-area: footer;
+}
+/* .item-5{
+    background-color: #10a5e5;
+    border: 1px solid black;
+    grid-area: header;
+} */
